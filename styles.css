@@ -1,0 +1,48 @@
+body {
+    background-color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+nav .border-start,
+nav .border-end {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.responsive-text {
+  font-size: 7.1vw; /* Adjust this value based on how large you want the text */
+  /* letter-spacing: 0.1em; */
+}
+
+@media (max-width: 768px) {
+  /* For smaller screens, you may want to adjust the font size */
+  .responsive-text {
+    font-size: 8vw; /* Larger font for small screens */
+    letter-spacing: 0.1em; /* Reduce letter spacing on smaller screens if needed */
+  }
+}
+
+button{
+  background-color: #dcd3ca;
+  border-radius: 100px;
+  border: 2px black solid;
+  text-align: center;
+}
+
+.title{
+  line-height: 100%;
+}
+
+.border-rounded{
+  border-radius: 100px;
+}
+
+.quantity-button {
+  cursor: pointer; /* Change cursor to pointer for better UX */
+  font-size: 10px;
+}
+
+.quantity-value {
+  margin: 0 10px; /* Optional: spacing between buttons and value */
+}
